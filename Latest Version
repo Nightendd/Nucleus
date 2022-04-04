@@ -1,8 +1,1226 @@
 --[[
-    Nucleus ツ
-    Developed by the Nucleus Team
-    Script was obfusucated to prevent people from stealing our code.
-    (LATEST VERSION)
+	Nucleus ツ V1 - Developed by Unknown (https://www.reddit.com/user/RedditSnoozy)
+	
+	If your executor can't execute this its probably because your executor is too weak to execute it.
+	(Use a executor with a powerful api)
 --]]
 
-local J=Instance.new("ScreenGui") local ma=Instance.new("Frame") local E=Instance.new("UICorner") local U=Instance.new("TextLabel") local X=Instance.new("Frame") local F=Instance.new("UICorner") local la=Instance.new("TextBox") local Da=Instance.new("ScrollingFrame") local ka=Instance.new("TextButton") local j=Instance.new("UICorner") local fa=Instance.new("TextButton") local i=Instance.new("UICorner") local ea=Instance.new("TextButton") local h=Instance.new("UICorner") local da=Instance.new("TextButton") local m=Instance.new("UICorner") local aa=Instance.new("TextButton") local l=Instance.new("UICorner") local Z=Instance.new("TextButton") local g=Instance.new("UICorner") local ba=Instance.new("TextButton") local k=Instance.new("UICorner") local _a=Instance.new("TextButton") local a=Instance.new("UICorner") local I=Instance.new("UIListLayout") local ja=Instance.new("TextButton") local b=Instance.new("UICorner") local qa=Instance.new("Frame") local pa=Instance.new("TextLabel") local o=Instance.new("UICorner") local va=Instance.new("TextLabel") local D=Instance.new("UICorner") local G=Instance.new("UIListLayout") local xa=Instance.new("TextLabel") local A=Instance.new("UICorner") local oa=Instance.new("TextLabel") local z=Instance.new("UICorner") local wa=Instance.new("TextButton") local r=Instance.new("UICorner") local ca=Instance.new("TextLabel") local v=Instance.new("UICorner") local V=Instance.new("Frame") local Ba=Instance.new("TextLabel") local x=Instance.new("UICorner") local ya=Instance.new("TextButton") local w=Instance.new("UICorner") local ta=Instance.new("TextButton") local e=Instance.new("UICorner") local H=Instance.new("UIListLayout") local S=Instance.new("TextButton") local Aa=Instance.new("TextLabel") local u=Instance.new("UICorner") local ra=Instance.new("TextButton") local t=Instance.new("UICorner") local R=Instance.new("Frame") local ga=Instance.new("TextLabel") local q=Instance.new("UICorner") local Q=Instance.new("TextButton") local K=Instance.new("ImageLabel") local za=Instance.new("TextLabel") local y=Instance.new("UICorner") local sa=Instance.new("TextButton") local B=Instance.new("UICorner") local N=Instance.new("ImageButton") local M=Instance.new("ImageButton") local T=Instance.new("TextButton") local P=Instance.new("ImageButton") local Ca=Instance.new("TextLabel") local C=Instance.new("UICorner") local Y=Instance.new("Frame") local p=Instance.new("UICorner") local W=Instance.new("TextLabel") local s=Instance.new("UICorner") local ia=Instance.new("TextLabel") local n=Instance.new("UICorner") local L=Instance.new("ImageLabel") local O=Instance.new("Frame") local _=Instance.new("UICorner") local ha=Instance.new("TextLabel") local c=Instance.new("UICorner") local ua=Instance.new("TextLabel") local d=Instance.new("UICorner") local na=Instance.new("TextLabel") local f=Instance.new("UICorner") J.Name="Main" J.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui") J.ZIndexBehavior=Enum.ZIndexBehavior.Sibling ma.Name="MainTitle" ma.Parent=J ma.BackgroundColor3=Color3.fromRGB(17,17,17) ma.BorderSizePixel=0 ma.Position=UDim2.new(0.804989636,0,0.671734333,0) ma.Size=UDim2.new(0,249,0,32) E.CornerRadius=UDim.new(0,2) E.Parent=ma U.Name="Title" U.Parent=ma U.BackgroundColor3=Color3.fromRGB(255,255,255) U.BackgroundTransparency=1.000 U.BorderSizePixel=0 U.Size=UDim2.new(0,250,0,23) U.Font=Enum.Font.Roboto U.Text="Nucleus ツ" U.TextColor3=Color3.fromRGB(255,255,255) U.TextScaled=true U.TextSize=14.000 U.TextWrapped=true X.Name="ScriptsFrame" X.Parent=ma X.BackgroundColor3=Color3.fromRGB(30,30,30) X.BorderSizePixel=0 X.Position=UDim2.new(0,0,0.71875,0) X.Size=UDim2.new(0,249,0,211) F.CornerRadius=UDim.new(0,2) F.Parent=X la.Name="SearchBOX" la.Parent=X la.BackgroundColor3=Color3.fromRGB(20,20,20) la.BorderSizePixel=0 la.Position=UDim2.new(0,0,-0.00192505866,0) la.Size=UDim2.new(0,249,0,19) la.Visible=false la.Font=Enum.Font.Roboto la.PlaceholderColor3=Color3.fromRGB(185,185,185) la.PlaceholderText="Search For Scripts" la.Text="" la.TextColor3=Color3.fromRGB(255,255,255) la.TextSize=20.000 la.TextWrapped=true Da.Name="Scripts" Da.Parent=X Da.Active=true Da.BackgroundColor3=Color3.fromRGB(255,255,255) Da.BackgroundTransparency=1.000 Da.BorderSizePixel=0 Da.Position=UDim2.new(0,0,0.134668142,0) Da.Size=UDim2.new(0,247,0,178) Da.Visible=false Da.CanvasSize=UDim2.new(0,0,3,0) Da.ScrollBarThickness=5 ka.Name="OwlHub" ka.Parent=Da ka.BackgroundColor3=Color3.fromRGB(17,17,17) ka.BorderSizePixel=0 ka.Position=UDim2.new(0.0109016662,0,0,0) ka.Size=UDim2.new(0,248,0,21) ka.Font=Enum.Font.Roboto ka.Text="Owl Hub (Arsenal / Any)" ka.TextColor3=Color3.fromRGB(255,255,255) ka.TextScaled=true ka.TextSize=14.000 ka.TextWrapped=true j.CornerRadius=UDim.new(0,2) j.Parent=ka fa.Name="InfYield" fa.Parent=Da fa.BackgroundColor3=Color3.fromRGB(17,17,17) fa.BorderSizePixel=0 fa.Position=UDim2.new(0,0,0.241279066,0) fa.Size=UDim2.new(0,250,0,21) fa.Font=Enum.Font.Roboto fa.Text="Inf Yield (Any)" fa.TextColor3=Color3.fromRGB(255,255,255) fa.TextScaled=true fa.TextSize=14.000 fa.TextWrapped=true i.CornerRadius=UDim.new(0,2) i.Parent=fa ea.Name="Dex" ea.Parent=Da ea.BackgroundColor3=Color3.fromRGB(17,17,17) ea.BorderSizePixel=0 ea.Position=UDim2.new(0,0,0.049418617,0) ea.Size=UDim2.new(0,249,0,21) ea.Font=Enum.Font.Roboto ea.Text="Dark Dex (Any)" ea.TextColor3=Color3.fromRGB(255,255,255) ea.TextScaled=true ea.TextSize=14.000 ea.TextWrapped=true h.CornerRadius=UDim.new(0,2) h.Parent=ea da.Name="ShedBypasserV3" da.Parent=Da da.BackgroundColor3=Color3.fromRGB(17,17,17) da.BorderSizePixel=0 da.Position=UDim2.new(0,0,0.337209284,0) da.Size=UDim2.new(0,250,0,21) da.Font=Enum.Font.Roboto da.Text="Sheds Bypasser V3 (Any)" da.TextColor3=Color3.fromRGB(255,255,255) da.TextScaled=true da.TextSize=14.000 da.TextWrapped=true m.CornerRadius=UDim.new(0,2) m.Parent=da aa.Name="EvoV2" aa.Parent=Da aa.BackgroundColor3=Color3.fromRGB(17,17,17) aa.BorderSizePixel=0 aa.Position=UDim2.new(0,0,0.436046481,0) aa.Size=UDim2.new(0,250,0,21) aa.Font=Enum.Font.Roboto aa.Text="Evo V2 (Any)" aa.TextColor3=Color3.fromRGB(255,255,255) aa.TextScaled=true aa.TextSize=14.000 aa.TextWrapped=true l.CornerRadius=UDim.new(0,2) l.Parent=aa Z.Name="WorkAtAPizzaPlace" Z.Parent=Da Z.BackgroundColor3=Color3.fromRGB(17,17,17) Z.BorderSizePixel=0 Z.Position=UDim2.new(0,0,0.529069722,0) Z.Size=UDim2.new(0,250,0,21) Z.Font=Enum.Font.Roboto Z.Text="Work At A Pizza Place" Z.TextColor3=Color3.fromRGB(255,255,255) Z.TextScaled=true Z.TextSize=14.000 Z.TextWrapped=true g.CornerRadius=UDim.new(0,2) g.Parent=Z ba.Name="ClovrVR" ba.Parent=Da ba.BackgroundColor3=Color3.fromRGB(17,17,17) ba.BorderSizePixel=0 ba.Position=UDim2.new(0,0,0.630813897,0) ba.Size=UDim2.new(0,250,0,21) ba.Font=Enum.Font.Roboto ba.Text="Clovr VR (Any)" ba.TextColor3=Color3.fromRGB(255,255,255) ba.TextScaled=true ba.TextSize=14.000 ba.TextWrapped=true k.CornerRadius=UDim.new(0,2) k.Parent=ba _a.Name="RemoteSpy" _a.Parent=Da _a.BackgroundColor3=Color3.fromRGB(17,17,17) _a.BorderSizePixel=0 _a.Position=UDim2.new(0,0,0.732558072,0) _a.Size=UDim2.new(0,250,0,21) _a.Font=Enum.Font.Roboto _a.Text="Remote Spy (Any)" _a.TextColor3=Color3.fromRGB(255,255,255) _a.TextScaled=true _a.TextSize=14.000 _a.TextWrapped=true a.CornerRadius=UDim.new(0,2) a.Parent=_a I.Name="Layout" I.Parent=Da I.SortOrder=Enum.SortOrder.LayoutOrder I.Padding=UDim.new(0,6) ja.Name="PetSimX" ja.Parent=Da ja.BackgroundColor3=Color3.fromRGB(17,17,17) ja.BorderSizePixel=0 ja.Position=UDim2.new(0,0,0.732558072,0) ja.Size=UDim2.new(0,250,0,21) ja.Font=Enum.Font.Roboto ja.Text="Pet Sim X {Saza Hub} (PSX)" ja.TextColor3=Color3.fromRGB(255,255,255) ja.TextScaled=true ja.TextSize=14.000 ja.TextWrapped=true b.CornerRadius=UDim.new(0,2) b.Parent=ja qa.Name="DetailsFrame" qa.Parent=X qa.BackgroundColor3=Color3.fromRGB(255,255,255) qa.BackgroundTransparency=1.000 qa.BorderSizePixel=0 qa.Position=UDim2.new(0,0,0.04265403,0) qa.Size=UDim2.new(0,249,0,201) qa.Visible=false pa.Name="FPS" pa.Parent=qa pa.BackgroundColor3=Color3.fromRGB(17,17,17) pa.BorderSizePixel=0 pa.Position=UDim2.new(0,0,0.0730337054,0) pa.Size=UDim2.new(0,249,0,25) pa.Font=Enum.Font.Roboto pa.Text="FPS - nil" pa.TextColor3=Color3.fromRGB(255,255,255) pa.TextScaled=true pa.TextSize=14.000 pa.TextWrapped=true o.CornerRadius=UDim.new(0,2) o.Parent=pa va.Name="PING" va.Parent=qa va.BackgroundColor3=Color3.fromRGB(17,17,17) va.BorderSizePixel=0 va.Position=UDim2.new(0.00401606411,0,0.325842679,0) va.Size=UDim2.new(0,249,0,25) va.Font=Enum.Font.Roboto va.Text="PING - nil" va.TextColor3=Color3.fromRGB(255,255,255) va.TextScaled=true va.TextSize=14.000 va.TextWrapped=true D.CornerRadius=UDim.new(0,2) D.Parent=va G.Parent=qa G.SortOrder=Enum.SortOrder.LayoutOrder G.Padding=UDim.new(0,10) xa.Name="WSGRAVITY" xa.Parent=qa xa.BackgroundColor3=Color3.fromRGB(17,17,17) xa.BorderSizePixel=0 xa.Position=UDim2.new(0,0,0.578651667,0) xa.Size=UDim2.new(0,249,0,25) xa.Font=Enum.Font.Roboto xa.Text="GRAVITY - nil" xa.TextColor3=Color3.fromRGB(255,255,255) xa.TextScaled=true xa.TextSize=14.000 xa.TextWrapped=true A.CornerRadius=UDim.new(0,2) A.Parent=xa oa.Name="PerformanceTestLabel" oa.Parent=qa oa.BackgroundColor3=Color3.fromRGB(17,17,17) oa.BorderSizePixel=0 oa.Position=UDim2.new(0,0,0.522388041,0) oa.Size=UDim2.new(0,142,0,25) oa.Font=Enum.Font.Roboto oa.Text="Performance Test" oa.TextColor3=Color3.fromRGB(255,255,255) oa.TextScaled=true oa.TextSize=14.000 oa.TextWrapped=true z.CornerRadius=UDim.new(0,2) z.Parent=oa wa.Name="ON" wa.Parent=oa wa.BackgroundColor3=Color3.fromRGB(17,17,17) wa.BorderSizePixel=0 wa.Position=UDim2.new(1.07042253,0,0,0) wa.Size=UDim2.new(0,88,0,25) wa.Font=Enum.Font.Roboto wa.Text="Try" wa.TextColor3=Color3.fromRGB(255,255,255) wa.TextScaled=true wa.TextSize=14.000 wa.TextWrapped=true r.CornerRadius=UDim.new(0,2) r.Parent=wa ca.Name="PerformanceTestLabel" ca.Parent=qa ca.BackgroundColor3=Color3.fromRGB(17,17,17) ca.BorderSizePixel=0 ca.Position=UDim2.new(0,0,0.696517408,0) ca.Size=UDim2.new(0,249,0,25) ca.Font=Enum.Font.Roboto ca.Text="*To turn off performance test (rejoin)" ca.TextColor3=Color3.fromRGB(255,255,255) ca.TextScaled=true ca.TextSize=14.000 ca.TextWrapped=true v.CornerRadius=UDim.new(0,2) v.Parent=ca V.Name="SettingsFrame" V.Parent=X V.BackgroundColor3=Color3.fromRGB(255,255,255) V.BackgroundTransparency=1.000 V.BorderSizePixel=0 V.Position=UDim2.new(0,0,0.04265403,0) V.Size=UDim2.new(0,249,0,201) V.Visible=false Ba.Name="SortScriptsBy" Ba.Parent=V Ba.BackgroundColor3=Color3.fromRGB(17,17,17) Ba.BorderSizePixel=0 Ba.Size=UDim2.new(0,101,0,25) Ba.Font=Enum.Font.Roboto Ba.Text="Sort Scripts By" Ba.TextColor3=Color3.fromRGB(255,255,255) Ba.TextScaled=true Ba.TextSize=14.000 Ba.TextWrapped=true x.CornerRadius=UDim.new(0,2) x.Parent=Ba ya.Name="Name" ya.Parent=Ba ya.BackgroundColor3=Color3.fromRGB(17,17,17) ya.BorderSizePixel=0 ya.Position=UDim2.new(1.07292068,0,0,0) ya.Size=UDim2.new(0,62,0,25) ya.Font=Enum.Font.Roboto ya.Text="Name" ya.TextColor3=Color3.fromRGB(255,255,255) ya.TextScaled=true ya.TextSize=14.000 ya.TextWrapped=true w.CornerRadius=UDim.new(0,2) w.Parent=ya ta.Name="Default" ta.Parent=Ba ta.BackgroundColor3=Color3.fromRGB(17,17,17) ta.BorderSizePixel=0 ta.Position=UDim2.new(1.80295801,0,0,0) ta.Size=UDim2.new(0,60,0,24) ta.Font=Enum.Font.Roboto ta.Text="Default" ta.TextColor3=Color3.fromRGB(255,255,255) ta.TextScaled=true ta.TextSize=14.000 ta.TextWrapped=true e.CornerRadius=UDim.new(0,2) e.Parent=ta H.Parent=V H.SortOrder=Enum.SortOrder.LayoutOrder H.Padding=UDim.new(0,2) S.Name="CheckBox" S.Parent=V S.BackgroundColor3=Color3.fromRGB(255,255,255) S.BackgroundTransparency=1.000 S.BorderSizePixel=0 S.Position=UDim2.new(0,500,0,500) S.Size=UDim2.new(0,25,0,25) S.Font=Enum.Font.SourceSansBold S.Text="" S.TextColor3=Color3.fromRGB(61,168,12) S.TextSize=42.000 Aa.Name="FastLoadScript" Aa.Parent=V Aa.BackgroundColor3=Color3.fromRGB(17,17,17) Aa.BorderSizePixel=0 Aa.Position=UDim2.new(0,0,0.268656731,0) Aa.Size=UDim2.new(0,148,0,25) Aa.Visible=false Aa.Font=Enum.Font.Roboto Aa.Text="" Aa.TextColor3=Color3.fromRGB(255,255,255) Aa.TextScaled=true Aa.TextSize=14.000 Aa.TextWrapped=true u.CornerRadius=UDim.new(0,2) u.Parent=Aa ra.Name="check" ra.Parent=Aa ra.BackgroundColor3=Color3.fromRGB(17,17,17) ra.BorderSizePixel=0 ra.Position=UDim2.new(1.05945647,0,0,0) ra.Size=UDim2.new(0,25,0,25) ra.Font=Enum.Font.Roboto ra.Text="" ra.TextColor3=Color3.fromRGB(255,255,255) ra.TextScaled=true ra.TextSize=14.000 ra.TextWrapped=true t.CornerRadius=UDim.new(0,2) t.Parent=ra R.Name="HomeFrame" R.Parent=X R.BackgroundColor3=Color3.fromRGB(255,255,255) R.BackgroundTransparency=1.000 R.BorderSizePixel=0 R.Position=UDim2.new(0,0,0.04265403,0) R.Size=UDim2.new(0,249,0,201) ga.Name="WelcomeTitle" ga.Parent=R ga.BackgroundColor3=Color3.fromRGB(17,17,17) ga.BorderSizePixel=0 ga.Size=UDim2.new(0,249,0,25) ga.Font=Enum.Font.Roboto ga.Text="Welcome (nil)" ga.TextColor3=Color3.fromRGB(255,255,255) ga.TextScaled=true ga.TextSize=14.000 ga.TextWrapped=true q.CornerRadius=UDim.new(0,2) q.Parent=ga Q.Name="CheckBox" Q.Parent=R Q.BackgroundColor3=Color3.fromRGB(255,255,255) Q.BackgroundTransparency=1.000 Q.BorderSizePixel=0 Q.Position=UDim2.new(0,500,0,500) Q.Size=UDim2.new(0,25,0,25) Q.Font=Enum.Font.SourceSansBold Q.Text="" Q.TextColor3=Color3.fromRGB(61,168,12) Q.TextSize=42.000 K.Name="Profile" K.Parent=R K.BackgroundColor3=Color3.fromRGB(255,255,255) K.BackgroundTransparency=1.000 K.BorderSizePixel=0 K.Position=UDim2.new(0.261044174,0,0.194029838,0) K.Size=UDim2.new(0,119,0,115) K.Image="https://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&username=\"..game.Players.LocalPlayer.Name" za.Name="FastLoadScript" za.Parent=R za.BackgroundColor3=Color3.fromRGB(17,17,17) za.BorderSizePixel=0 za.Position=UDim2.new(0,0,0.268656731,0) za.Size=UDim2.new(0,148,0,25) za.Visible=false za.Font=Enum.Font.Roboto za.Text="" za.TextColor3=Color3.fromRGB(255,255,255) za.TextScaled=true za.TextSize=14.000 za.TextWrapped=true y.CornerRadius=UDim.new(0,2) y.Parent=za sa.Name="check" sa.Parent=za sa.BackgroundColor3=Color3.fromRGB(17,17,17) sa.BorderSizePixel=0 sa.Position=UDim2.new(1.05945647,0,0,0) sa.Size=UDim2.new(0,25,0,25) sa.Font=Enum.Font.Roboto sa.Text="" sa.TextColor3=Color3.fromRGB(255,255,255) sa.TextScaled=true sa.TextSize=14.000 sa.TextWrapped=true B.CornerRadius=UDim.new(0,2) B.Parent=sa N.Name="Details" N.Parent=ma N.BackgroundColor3=Color3.fromRGB(255,255,255) N.BackgroundTransparency=1.000 N.BorderSizePixel=0 N.Position=UDim2.new(0.916000009,0,0.0939999968,0) N.Size=UDim2.new(0,19,0,19) N.Image="rbxassetid://3926305904" N.ImageRectOffset=Vector2.new(524,444) N.ImageRectSize=Vector2.new(36,36) M.Name="Home" M.Parent=ma M.BackgroundColor3=Color3.fromRGB(255,255,255) M.BackgroundTransparency=1.000 M.BorderSizePixel=0 M.Position=UDim2.new(0.7955181,0,0.0939999968,0) M.Size=UDim2.new(0,19,0,19) M.Image="rbxassetid://3926305904" M.ImageRectOffset=Vector2.new(404,844) M.ImageRectSize=Vector2.new(36,36) T.Name="MainBTN" T.Parent=ma T.BackgroundColor3=Color3.fromRGB(255,255,255) T.BackgroundTransparency=1.000 T.BorderSizePixel=0 T.Size=UDim2.new(0,250,0,26) T.Visible=false T.Font=Enum.Font.SourceSans T.Text="" T.TextColor3=Color3.fromRGB(0,0,0) T.TextSize=14.000 P.Name="Settings" P.Parent=ma P.BackgroundColor3=Color3.fromRGB(255,255,255) P.BackgroundTransparency=1.000 P.BorderSizePixel=0 P.Position=UDim2.new(0.69511652,0,0.0939999968,0) P.Size=UDim2.new(0,19,0,19) P.Image="rbxassetid://3926307971" P.ImageRectOffset=Vector2.new(324,124) P.ImageRectSize=Vector2.new(36,36) Ca.Name="StatusLabel" Ca.Parent=J Ca.BackgroundColor3=Color3.fromRGB(24,24,24) Ca.BackgroundTransparency=0.150 Ca.BorderSizePixel=0 Ca.Position=UDim2.new(0,0,-3.05771828e-05,0) Ca.Size=UDim2.new(0,1920,0,50) Ca.Visible=false Ca.Font=Enum.Font.Roboto Ca.Text="(Thats an error! - Failed To Load)" Ca.TextColor3=Color3.fromRGB(255,255,255) Ca.TextScaled=true Ca.TextSize=14.000 Ca.TextWrapped=true C.CornerRadius=UDim.new(0,2) C.Parent=Ca Y.Name="Loading" Y.Parent=J Y.AnchorPoint=Vector2.new(0.5,0.5) Y.BackgroundColor3=Color3.fromRGB(30,30,30) Y.BorderSizePixel=0 Y.Position=UDim2.new(0.5,0,0.5,0) Y.Size=UDim2.new(0,300,0,232) Y.Visible=false p.CornerRadius=UDim.new(0,3) p.Parent=Y W.Name="Title" W.Parent=Y W.BackgroundColor3=Color3.fromRGB(17,17,17) W.BorderSizePixel=0 W.Size=UDim2.new(0,300,0,33) W.Font=Enum.Font.Roboto W.Text="Nucleus ツ" W.TextColor3=Color3.fromRGB(255,255,255) W.TextScaled=true W.TextSize=14.000 W.TextWrapped=true s.CornerRadius=UDim.new(0,3) s.Parent=W ia.Name="Label" ia.Parent=Y ia.BackgroundColor3=Color3.fromRGB(17,17,17) ia.BorderSizePixel=0 ia.Position=UDim2.new(0,0,0.706896544,0) ia.Size=UDim2.new(0,300,0,27) ia.Font=Enum.Font.Roboto ia.Text="Getting Latest Version.." ia.TextColor3=Color3.fromRGB(255,255,255) ia.TextScaled=true ia.TextSize=14.000 ia.TextWrapped=true n.CornerRadius=UDim.new(0,3) n.Parent=ia L.Name="LoadingIcon" L.Parent=Y L.BackgroundColor3=Color3.fromRGB(255,255,255) L.BackgroundTransparency=1.000 L.BorderSizePixel=0 L.Position=UDim2.new(0.325793445,0,0.206896558,0) L.Size=UDim2.new(0,104,0,104) L.Image="http://www.roblox.com/asset/?id=9275588885" O.Name="ExecutedScript" O.Parent=J O.BackgroundColor3=Color3.fromRGB(30,30,30) O.BorderSizePixel=0 O.Position=UDim2.new(0.996999979,10,0.412999988,0) O.Size=UDim2.new(0,237,0,116) _.CornerRadius=UDim.new(0,2) _.Parent=O ha.Name="Title" ha.Parent=O ha.BackgroundColor3=Color3.fromRGB(17,17,17) ha.BorderColor3=Color3.fromRGB(27,42,53) ha.BorderSizePixel=0 ha.Size=UDim2.new(0,237,0,31) ha.Font=Enum.Font.Roboto ha.Text="Loaded Script!" ha.TextColor3=Color3.fromRGB(255,255,255) ha.TextScaled=true ha.TextSize=14.000 ha.TextWrapped=true c.CornerRadius=UDim.new(0,2) c.Parent=ha ua.Name="Bar" ua.Parent=O ua.BackgroundColor3=Color3.fromRGB(3,255,45) ua.BorderColor3=Color3.fromRGB(27,42,53) ua.BorderSizePixel=0 ua.Position=UDim2.new(0,0,0.9741382,0) ua.Size=UDim2.new(0,237,0,3) ua.Font=Enum.Font.Roboto ua.Text="Executed Script!" ua.TextColor3=Color3.fromRGB(255,255,255) ua.TextScaled=true ua.TextSize=14.000 ua.TextWrapped=true d.CornerRadius=UDim.new(0,2) d.Parent=ua na.Name="Title" na.Parent=O na.BackgroundColor3=Color3.fromRGB(30,30,30) na.BorderColor3=Color3.fromRGB(27,42,53) na.BorderSizePixel=0 na.Position=UDim2.new(0,0,0.396551698,0) na.Size=UDim2.new(0,237,0,46) na.Font=Enum.Font.Roboto na.Text="The script you executed has loaded successfully." na.TextColor3=Color3.fromRGB(255,255,255) na.TextScaled=true na.TextSize=14.000 na.TextWrapped=true f.CornerRadius=UDim.new(0,2) f.Parent=na local function _()local r=Instance.new('LocalScript',J) local o={"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"} local p=math.random(10,20) local n="" local m="" local q=r.Parent.MainTitle local l=r.Parent.MainTitle.ScriptsFrame.SearchBOX local t=r.Parent.MainTitle.ScriptsFrame local s=t.Scripts local j=game:GetService("CoreGui") local k=r.Parent local _=q.Details local _=q.Home local _=t.DetailsFrame local a=s.Dex local b=s.OwlHub local i=s.InfYield local e=s.ShedBypasserV3 local h=s.EvoV2 local g=s.WorkAtAPizzaPlace local f=s.ClovrVR local c=s.RemoteSpy local d=s.PetSimX local _=r.Parent.StatusLabel local _=r.Parent.ExecutedScript function Update()local a=string.lower(l.Text) for _,b in pairs(s:GetChildren())do if b:IsA("GuiButton")then if a~=""then local _=string.lower(b.Text) if string.find(_,a)then b.Visible=true else b.Visible=false end else b.Visible=true end end end end l.Changed:Connect(Update) k.Parent=j for _=1,p do n=n..""..o[math.random(1,#o)] if _==p then k.Name=n end end for _=1,p do m=m..""..o[math.random(1,#o)] if _==p then r.Name=m end end local function j()_.Visible=true _:TweenPosition(UDim2.new(0.777,0,0.413,0),Enum.EasingDirection.InOut,Enum.EasingStyle.Quint,0.3,true) wait(2.5 or 3) _:TweenPosition(UDim2.new(0.997,10,0.413,0),Enum.EasingDirection.InOut,Enum.EasingStyle.Quint,0.3,true) wait(0.4) _.Visible=false end b.MouseButton1Down:Connect(function(_)loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))() j()end) a.MouseButton1Down:Connect(function(_)loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Nightendd/dex-synapse-x/main/dexx"))() j()end) i.MouseButton1Down:Connect(function(_)loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))() j()end) e.MouseButton1Down:Connect(function(_)loadstring(game:HttpGetAsync("https://the-shed.xyz/roblox/scripts/ChatBypass"))() j()end) h.MouseButton1Down:Connect(function(_)loadstring(game:HttpGetAsync("https://projectevo.xyz/script/loader.lua"))() j()end) g.MouseButton1Down:Connect(function(_)loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/TurkOyuncu99/b19b733fb8e9e0299381653c50e21e49/raw/a0c7394ba4451c6c548979103aea600d89b70f32/xxxcccc",true))() j()end) f.MouseButton1Down:Connect(function(_)loadstring(game:HttpGetAsync("https://pastebin.com/raw/Jyfv16sF",true))() j()end) c.MouseButton1Down:Connect(function(_)loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Nightendd/remote_spy/main/main",true))() j()end) d.MouseButton1Down:Connect(function(_)loadstring(game:HttpGetAsync("https://pastebin.com/raw/kB7CVpBd",true))() j()end) q.Details.MouseButton1Down:Connect(function(_)t.HomeFrame.Visible=false t.SettingsFrame.Visible=false t.DetailsFrame.Visible=true t.Scripts.Visible=false t.SearchBOX.Visible=false end) q.Home.MouseButton1Down:Connect(function(_)t.HomeFrame.Visible=false t.SettingsFrame.Visible=false t.DetailsFrame.Visible=false t.Scripts.Visible=true t.SearchBOX.Visible=true end) q.Settings.MouseButton1Down:Connect(function(_)t.HomeFrame.Visible=false t.SettingsFrame.Visible=true t.DetailsFrame.Visible=false t.Scripts.Visible=false t.SearchBOX.Visible=false end)end coroutine.wrap(_)() local function _()local a=Instance.new('LocalScript',pa) while wait(1)do local _=game:GetService("Workspace"):GetRealPhysicsFPS() a.Parent.Text='FPS - '..math.floor(_)end end coroutine.wrap(_)() local function _()local _=Instance.new('LocalScript',va) while wait(1)do local a=300-((1/wait())*10) if a<1 then a=1 end _.Parent.Text='PING - '..math.floor(a) wait(9)end end coroutine.wrap(_)() local function _()local _=Instance.new('LocalScript',xa) while true do _.Parent.Text="GRAVITY - "..workspace.Gravity wait()end end coroutine.wrap(_)() local function _()local _=Instance.new('LocalScript',wa) _.Parent.MouseButton1Down:Connect(function(_)local a=Instance.new("Folder") a.Name="PARTS" a.Parent=workspace while true do local _=Instance.new("Part") _.Parent=a wait()end end)end coroutine.wrap(_)() local function _()local a=Instance.new('LocalScript',Ba) while wait(1)do local _=game:GetService("Workspace"):GetRealPhysicsFPS() a.Parent.Text='FPS - '..math.floor(_)end end coroutine.wrap(_)() local function _()local a=Instance.new('LocalScript',ya) a.Parent.MouseButton1Down:Connect(function(_)a.Parent.Parent.Parent.Parent.Scripts.Layout.SortOrder=Enum.SortOrder.Name end)end coroutine.wrap(_)() local function _()local a=Instance.new('LocalScript',ta) a.Parent.MouseButton1Down:Connect(function(_)a.Parent.Parent.Parent.Parent.Scripts.Layout.SortOrder=Enum.SortOrder.Custom end)end coroutine.wrap(_)() local function _()local a=Instance.new('LocalScript',ra) local _=false a.Parent.MouseButton1Click:Connect(function()if _ then _=false a.Parent.Text=""else _=true a.Parent.Text="✔" a.Parent.Parent.Parent.Parent.Parent.Parent.LoadingScriptsTime.Value=0.5 or 1 end end)end coroutine.wrap(_)() local function _()local _=Instance.new('LocalScript',ga) _.Parent.Text="Welcome, "..game.Players.LocalPlayer.Name end coroutine.wrap(_)() local function _()local _=Instance.new('LocalScript',K) _.Parent.Image="https://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&username="..game.Players.LocalPlayer.Name end coroutine.wrap(_)() local function _()local a=Instance.new('LocalScript',sa) local _=false a.Parent.MouseButton1Click:Connect(function()if _ then _=false a.Parent.Text=""else _=true a.Parent.Text="✔" a.Parent.Parent.Parent.Parent.Parent.Parent.LoadingScriptsTime.Value=0.5 or 1 end end)end coroutine.wrap(_)() local function _()local _=Instance.new('LocalScript',ma) _.Parent.Draggable=true _.Parent.Active=true end coroutine.wrap(_)() local function _()local _=Instance.new('LocalScript',Ca) while true do _.Parent.Text="Loading script." wait(0.5) _.Parent.Text="Loading script.." wait(0.5) _.Parent.Text="Loading script..." wait(0.5)end end coroutine.wrap(_)() local function _()local _=Instance.new('LocalScript',L) while wait()do _.Parent.Rotation=_.Parent.Rotation+10 if _.Parent.Rotation==360 then _.Parent.Rotation=0 end end end coroutine.wrap(_)()
+local Main = Instance.new("ScreenGui")
+local MainTitle = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local ScriptsFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local SearchBOX = Instance.new("TextBox")
+local Scripts = Instance.new("ScrollingFrame")
+local OwlHub = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local InfYield = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Dex = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local ShedBypasserV3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local EvoV2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local WorkAtAPizzaPlace = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ClovrVR = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local RemoteSpy = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Layout = Instance.new("UIListLayout")
+local PetSimX = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Vynixius = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local MadCity = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local CardRideIntoRdite = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local CmdX = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local DetailsFrame = Instance.new("Frame")
+local FPS = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local PING = Instance.new("TextLabel")
+local UICorner_17 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local WSGRAVITY = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+local PerformanceTestLabel = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local ON = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local PerformanceTestLabel_2 = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local SettingsFrame = Instance.new("Frame")
+local SortScriptsBy = Instance.new("TextLabel")
+local UICorner_22 = Instance.new("UICorner")
+local Name = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Default = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local CheckBox = Instance.new("TextButton")
+local FastLoadScript = Instance.new("TextLabel")
+local UICorner_25 = Instance.new("UICorner")
+local check = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local HomeFrame = Instance.new("Frame")
+local WelcomeTitle = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local CheckBox_2 = Instance.new("TextButton")
+local Profile = Instance.new("ImageLabel")
+local FastLoadScript_2 = Instance.new("TextLabel")
+local UICorner_28 = Instance.new("UICorner")
+local check_2 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Details = Instance.new("ImageButton")
+local Home = Instance.new("ImageButton")
+local MainBTN = Instance.new("TextButton")
+local Settings = Instance.new("ImageButton")
+local Close = Instance.new("TextButton")
+local StatusLabel = Instance.new("TextLabel")
+local UICorner_30 = Instance.new("UICorner")
+local Loading = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local Title_2 = Instance.new("TextLabel")
+local UICorner_32 = Instance.new("UICorner")
+local Label = Instance.new("TextLabel")
+local UICorner_33 = Instance.new("UICorner")
+local LoadingIcon = Instance.new("ImageLabel")
+local ExecutedScript = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local Title_3 = Instance.new("TextLabel")
+local UICorner_35 = Instance.new("UICorner")
+local Bar = Instance.new("TextLabel")
+local UICorner_36 = Instance.new("UICorner")
+local Info = Instance.new("TextLabel")
+local UICorner_37 = Instance.new("UICorner")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainTitle.Name = "MainTitle"
+MainTitle.Parent = Main
+MainTitle.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+MainTitle.BorderSizePixel = 0
+MainTitle.Position = UDim2.new(0.804989636, 0, 0.671734333, 0)
+MainTitle.Size = UDim2.new(0, 249, 0, 32)
+
+UICorner.CornerRadius = UDim.new(0, 2)
+UICorner.Parent = MainTitle
+
+Title.Name = "Title"
+Title.Parent = MainTitle
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 250, 0, 23)
+Title.Font = Enum.Font.Roboto
+Title.Text = "Nucleus ツ"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+ScriptsFrame.Name = "ScriptsFrame"
+ScriptsFrame.Parent = MainTitle
+ScriptsFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ScriptsFrame.BorderSizePixel = 0
+ScriptsFrame.Position = UDim2.new(0, 0, 0.71875, 0)
+ScriptsFrame.Size = UDim2.new(0, 249, 0, 211)
+
+UICorner_2.CornerRadius = UDim.new(0, 2)
+UICorner_2.Parent = ScriptsFrame
+
+SearchBOX.Name = "SearchBOX"
+SearchBOX.Parent = ScriptsFrame
+SearchBOX.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+SearchBOX.BorderSizePixel = 0
+SearchBOX.Position = UDim2.new(0, 0, -0.00192505866, 0)
+SearchBOX.Size = UDim2.new(0, 249, 0, 19)
+SearchBOX.Font = Enum.Font.Roboto
+SearchBOX.PlaceholderColor3 = Color3.fromRGB(185, 185, 185)
+SearchBOX.PlaceholderText = "Search For Scripts"
+SearchBOX.Text = ""
+SearchBOX.TextColor3 = Color3.fromRGB(255, 255, 255)
+SearchBOX.TextSize = 20.000
+SearchBOX.TextWrapped = true
+
+Scripts.Name = "Scripts"
+Scripts.Parent = ScriptsFrame
+Scripts.Active = true
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.BackgroundTransparency = 1.000
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0, 0, 0.134668142, 0)
+Scripts.Size = UDim2.new(0, 247, 0, 178)
+Scripts.CanvasSize = UDim2.new(0, 0, 3, 0)
+Scripts.ScrollBarThickness = 5
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = Scripts
+OwlHub.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+OwlHub.BorderSizePixel = 0
+OwlHub.Position = UDim2.new(0.0109016662, 0, 0, 0)
+OwlHub.Size = UDim2.new(0, 248, 0, 21)
+OwlHub.Font = Enum.Font.Roboto
+OwlHub.Text = "Owl Hub (Arsenal / Any)"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextScaled = true
+OwlHub.TextSize = 14.000
+OwlHub.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 2)
+UICorner_3.Parent = OwlHub
+
+InfYield.Name = "InfYield"
+InfYield.Parent = Scripts
+InfYield.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+InfYield.BorderSizePixel = 0
+InfYield.Position = UDim2.new(0, 0, 0.241279066, 0)
+InfYield.Size = UDim2.new(0, 250, 0, 21)
+InfYield.Font = Enum.Font.Roboto
+InfYield.Text = "Inf Yield (Any)"
+InfYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYield.TextScaled = true
+InfYield.TextSize = 14.000
+InfYield.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 2)
+UICorner_4.Parent = InfYield
+
+Dex.Name = "Dex"
+Dex.Parent = Scripts
+Dex.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Dex.BorderSizePixel = 0
+Dex.Position = UDim2.new(0, 0, 0.049418617, 0)
+Dex.Size = UDim2.new(0, 249, 0, 21)
+Dex.Font = Enum.Font.Roboto
+Dex.Text = "Dark Dex (Any)"
+Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex.TextScaled = true
+Dex.TextSize = 14.000
+Dex.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 2)
+UICorner_5.Parent = Dex
+
+ShedBypasserV3.Name = "ShedBypasserV3"
+ShedBypasserV3.Parent = Scripts
+ShedBypasserV3.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+ShedBypasserV3.BorderSizePixel = 0
+ShedBypasserV3.Position = UDim2.new(0, 0, 0.337209284, 0)
+ShedBypasserV3.Size = UDim2.new(0, 250, 0, 21)
+ShedBypasserV3.Font = Enum.Font.Roboto
+ShedBypasserV3.Text = "Sheds Bypasser V3 (Any)"
+ShedBypasserV3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ShedBypasserV3.TextScaled = true
+ShedBypasserV3.TextSize = 14.000
+ShedBypasserV3.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 2)
+UICorner_6.Parent = ShedBypasserV3
+
+EvoV2.Name = "EvoV2"
+EvoV2.Parent = Scripts
+EvoV2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+EvoV2.BorderSizePixel = 0
+EvoV2.Position = UDim2.new(0, 0, 0.436046481, 0)
+EvoV2.Size = UDim2.new(0, 250, 0, 21)
+EvoV2.Font = Enum.Font.Roboto
+EvoV2.Text = "Evo V2 (Any)"
+EvoV2.TextColor3 = Color3.fromRGB(255, 255, 255)
+EvoV2.TextScaled = true
+EvoV2.TextSize = 14.000
+EvoV2.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 2)
+UICorner_7.Parent = EvoV2
+
+WorkAtAPizzaPlace.Name = "WorkAtAPizzaPlace"
+WorkAtAPizzaPlace.Parent = Scripts
+WorkAtAPizzaPlace.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+WorkAtAPizzaPlace.BorderSizePixel = 0
+WorkAtAPizzaPlace.Position = UDim2.new(0, 0, 0.529069722, 0)
+WorkAtAPizzaPlace.Size = UDim2.new(0, 250, 0, 21)
+WorkAtAPizzaPlace.Font = Enum.Font.Roboto
+WorkAtAPizzaPlace.Text = "Work At A Pizza Place"
+WorkAtAPizzaPlace.TextColor3 = Color3.fromRGB(255, 255, 255)
+WorkAtAPizzaPlace.TextScaled = true
+WorkAtAPizzaPlace.TextSize = 14.000
+WorkAtAPizzaPlace.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 2)
+UICorner_8.Parent = WorkAtAPizzaPlace
+
+ClovrVR.Name = "ClovrVR"
+ClovrVR.Parent = Scripts
+ClovrVR.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+ClovrVR.BorderSizePixel = 0
+ClovrVR.Position = UDim2.new(0, 0, 0.630813897, 0)
+ClovrVR.Size = UDim2.new(0, 250, 0, 21)
+ClovrVR.Font = Enum.Font.Roboto
+ClovrVR.Text = "Clovr VR (Any)"
+ClovrVR.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClovrVR.TextScaled = true
+ClovrVR.TextSize = 14.000
+ClovrVR.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 2)
+UICorner_9.Parent = ClovrVR
+
+RemoteSpy.Name = "RemoteSpy"
+RemoteSpy.Parent = Scripts
+RemoteSpy.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+RemoteSpy.BorderSizePixel = 0
+RemoteSpy.Position = UDim2.new(0, 0, 0.732558072, 0)
+RemoteSpy.Size = UDim2.new(0, 250, 0, 21)
+RemoteSpy.Font = Enum.Font.Roboto
+RemoteSpy.Text = "Remote Spy (Any)"
+RemoteSpy.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoteSpy.TextScaled = true
+RemoteSpy.TextSize = 14.000
+RemoteSpy.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 2)
+UICorner_10.Parent = RemoteSpy
+
+Layout.Name = "Layout"
+Layout.Parent = Scripts
+Layout.SortOrder = Enum.SortOrder.LayoutOrder
+Layout.Padding = UDim.new(0, 6)
+
+PetSimX.Name = "PetSimX"
+PetSimX.Parent = Scripts
+PetSimX.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+PetSimX.BorderSizePixel = 0
+PetSimX.Position = UDim2.new(0, 0, 0.732558072, 0)
+PetSimX.Size = UDim2.new(0, 250, 0, 21)
+PetSimX.Font = Enum.Font.Roboto
+PetSimX.Text = "Pet Sim X {Saza Hub} (PSX)"
+PetSimX.TextColor3 = Color3.fromRGB(255, 255, 255)
+PetSimX.TextScaled = true
+PetSimX.TextSize = 14.000
+PetSimX.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 2)
+UICorner_11.Parent = PetSimX
+
+Vynixius.Name = "Vynixius"
+Vynixius.Parent = Scripts
+Vynixius.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Vynixius.BorderSizePixel = 0
+Vynixius.Position = UDim2.new(0, 0, 0.732558072, 0)
+Vynixius.Size = UDim2.new(0, 250, 0, 21)
+Vynixius.Font = Enum.Font.Roboto
+Vynixius.Text = "Vynixius (Any)"
+Vynixius.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vynixius.TextScaled = true
+Vynixius.TextSize = 14.000
+Vynixius.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 2)
+UICorner_12.Parent = Vynixius
+
+MadCity.Name = "MadCity"
+MadCity.Parent = Scripts
+MadCity.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+MadCity.BorderSizePixel = 0
+MadCity.Position = UDim2.new(0, 0, 0.732558072, 0)
+MadCity.Size = UDim2.new(0, 250, 0, 21)
+MadCity.Font = Enum.Font.Roboto
+MadCity.Text = "Mad City (MC)"
+MadCity.TextColor3 = Color3.fromRGB(255, 255, 255)
+MadCity.TextScaled = true
+MadCity.TextSize = 14.000
+MadCity.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 2)
+UICorner_13.Parent = MadCity
+
+CardRideIntoRdite.Name = "CardRideIntoRdite"
+CardRideIntoRdite.Parent = Scripts
+CardRideIntoRdite.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+CardRideIntoRdite.BorderSizePixel = 0
+CardRideIntoRdite.Position = UDim2.new(0, 0, 0.732558072, 0)
+CardRideIntoRdite.Size = UDim2.new(0, 250, 0, 21)
+CardRideIntoRdite.Font = Enum.Font.Roboto
+CardRideIntoRdite.Text = "Cart Ride Into Rdite (CRIR)"
+CardRideIntoRdite.TextColor3 = Color3.fromRGB(255, 255, 255)
+CardRideIntoRdite.TextScaled = true
+CardRideIntoRdite.TextSize = 14.000
+CardRideIntoRdite.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 2)
+UICorner_14.Parent = CardRideIntoRdite
+
+CmdX.Name = "CmdX"
+CmdX.Parent = Scripts
+CmdX.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+CmdX.BorderSizePixel = 0
+CmdX.Position = UDim2.new(0, 0, 0.732558072, 0)
+CmdX.Size = UDim2.new(0, 250, 0, 21)
+CmdX.Font = Enum.Font.Roboto
+CmdX.Text = "Cmd X"
+CmdX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CmdX.TextScaled = true
+CmdX.TextSize = 14.000
+CmdX.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 2)
+UICorner_15.Parent = CmdX
+
+DetailsFrame.Name = "DetailsFrame"
+DetailsFrame.Parent = ScriptsFrame
+DetailsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DetailsFrame.BackgroundTransparency = 1.000
+DetailsFrame.BorderSizePixel = 0
+DetailsFrame.Position = UDim2.new(0, 0, 0.04265403, 0)
+DetailsFrame.Size = UDim2.new(0, 249, 0, 201)
+DetailsFrame.Visible = false
+
+FPS.Name = "FPS"
+FPS.Parent = DetailsFrame
+FPS.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+FPS.BorderSizePixel = 0
+FPS.Position = UDim2.new(0, 0, 0.0730337054, 0)
+FPS.Size = UDim2.new(0, 249, 0, 25)
+FPS.Font = Enum.Font.Roboto
+FPS.Text = "FPS - nil"
+FPS.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPS.TextScaled = true
+FPS.TextSize = 14.000
+FPS.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 2)
+UICorner_16.Parent = FPS
+
+PING.Name = "PING"
+PING.Parent = DetailsFrame
+PING.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+PING.BorderSizePixel = 0
+PING.Position = UDim2.new(0.00401606411, 0, 0.325842679, 0)
+PING.Size = UDim2.new(0, 249, 0, 25)
+PING.Font = Enum.Font.Roboto
+PING.Text = "PING - nil"
+PING.TextColor3 = Color3.fromRGB(255, 255, 255)
+PING.TextScaled = true
+PING.TextSize = 14.000
+PING.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 2)
+UICorner_17.Parent = PING
+
+UIListLayout.Parent = DetailsFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 10)
+
+WSGRAVITY.Name = "WSGRAVITY"
+WSGRAVITY.Parent = DetailsFrame
+WSGRAVITY.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+WSGRAVITY.BorderSizePixel = 0
+WSGRAVITY.Position = UDim2.new(0, 0, 0.578651667, 0)
+WSGRAVITY.Size = UDim2.new(0, 249, 0, 25)
+WSGRAVITY.Font = Enum.Font.Roboto
+WSGRAVITY.Text = "GRAVITY - nil"
+WSGRAVITY.TextColor3 = Color3.fromRGB(255, 255, 255)
+WSGRAVITY.TextScaled = true
+WSGRAVITY.TextSize = 14.000
+WSGRAVITY.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 2)
+UICorner_18.Parent = WSGRAVITY
+
+PerformanceTestLabel.Name = "PerformanceTestLabel"
+PerformanceTestLabel.Parent = DetailsFrame
+PerformanceTestLabel.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+PerformanceTestLabel.BorderSizePixel = 0
+PerformanceTestLabel.Position = UDim2.new(0, 0, 0.522388041, 0)
+PerformanceTestLabel.Size = UDim2.new(0, 142, 0, 25)
+PerformanceTestLabel.Font = Enum.Font.Roboto
+PerformanceTestLabel.Text = "Performance Test"
+PerformanceTestLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+PerformanceTestLabel.TextScaled = true
+PerformanceTestLabel.TextSize = 14.000
+PerformanceTestLabel.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 2)
+UICorner_19.Parent = PerformanceTestLabel
+
+ON.Name = "ON"
+ON.Parent = PerformanceTestLabel
+ON.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+ON.BorderSizePixel = 0
+ON.Position = UDim2.new(1.07042253, 0, 0, 0)
+ON.Size = UDim2.new(0, 88, 0, 25)
+ON.Font = Enum.Font.Roboto
+ON.Text = "Try"
+ON.TextColor3 = Color3.fromRGB(255, 255, 255)
+ON.TextScaled = true
+ON.TextSize = 14.000
+ON.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 2)
+UICorner_20.Parent = ON
+
+PerformanceTestLabel_2.Name = "PerformanceTestLabel"
+PerformanceTestLabel_2.Parent = DetailsFrame
+PerformanceTestLabel_2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+PerformanceTestLabel_2.BorderSizePixel = 0
+PerformanceTestLabel_2.Position = UDim2.new(0, 0, 0.696517408, 0)
+PerformanceTestLabel_2.Size = UDim2.new(0, 249, 0, 25)
+PerformanceTestLabel_2.Font = Enum.Font.Roboto
+PerformanceTestLabel_2.Text = "*To turn off performance test (rejoin)"
+PerformanceTestLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PerformanceTestLabel_2.TextScaled = true
+PerformanceTestLabel_2.TextSize = 14.000
+PerformanceTestLabel_2.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 2)
+UICorner_21.Parent = PerformanceTestLabel_2
+
+SettingsFrame.Name = "SettingsFrame"
+SettingsFrame.Parent = ScriptsFrame
+SettingsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsFrame.BackgroundTransparency = 1.000
+SettingsFrame.BorderSizePixel = 0
+SettingsFrame.Position = UDim2.new(0, 0, 0.04265403, 0)
+SettingsFrame.Size = UDim2.new(0, 249, 0, 201)
+SettingsFrame.Visible = false
+
+SortScriptsBy.Name = "SortScriptsBy"
+SortScriptsBy.Parent = SettingsFrame
+SortScriptsBy.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+SortScriptsBy.BorderSizePixel = 0
+SortScriptsBy.Size = UDim2.new(0, 101, 0, 25)
+SortScriptsBy.Font = Enum.Font.Roboto
+SortScriptsBy.Text = "Sort Scripts By"
+SortScriptsBy.TextColor3 = Color3.fromRGB(255, 255, 255)
+SortScriptsBy.TextScaled = true
+SortScriptsBy.TextSize = 14.000
+SortScriptsBy.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 2)
+UICorner_22.Parent = SortScriptsBy
+
+Name.Name = "Name"
+Name.Parent = SortScriptsBy
+Name.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Name.BorderSizePixel = 0
+Name.Position = UDim2.new(1.07292068, 0, 0, 0)
+Name.Size = UDim2.new(0, 62, 0, 25)
+Name.Font = Enum.Font.Roboto
+Name.Text = "Name"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 2)
+UICorner_23.Parent = Name
+
+Default.Name = "Default"
+Default.Parent = SortScriptsBy
+Default.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Default.BorderSizePixel = 0
+Default.Position = UDim2.new(1.80295801, 0, 0, 0)
+Default.Size = UDim2.new(0, 60, 0, 24)
+Default.Font = Enum.Font.Roboto
+Default.Text = "Default"
+Default.TextColor3 = Color3.fromRGB(255, 255, 255)
+Default.TextScaled = true
+Default.TextSize = 14.000
+Default.TextWrapped = true
+
+UICorner_24.CornerRadius = UDim.new(0, 2)
+UICorner_24.Parent = Default
+
+UIListLayout_2.Parent = SettingsFrame
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.Padding = UDim.new(0, 2)
+
+CheckBox.Name = "CheckBox"
+CheckBox.Parent = SettingsFrame
+CheckBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckBox.BackgroundTransparency = 1.000
+CheckBox.BorderSizePixel = 0
+CheckBox.Position = UDim2.new(0, 500, 0, 500)
+CheckBox.Size = UDim2.new(0, 25, 0, 25)
+CheckBox.Font = Enum.Font.SourceSansBold
+CheckBox.Text = ""
+CheckBox.TextColor3 = Color3.fromRGB(61, 168, 12)
+CheckBox.TextSize = 42.000
+
+FastLoadScript.Name = "FastLoadScript"
+FastLoadScript.Parent = SettingsFrame
+FastLoadScript.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+FastLoadScript.BorderSizePixel = 0
+FastLoadScript.Position = UDim2.new(0, 0, 0.268656731, 0)
+FastLoadScript.Size = UDim2.new(0, 148, 0, 25)
+FastLoadScript.Visible = false
+FastLoadScript.Font = Enum.Font.Roboto
+FastLoadScript.Text = ""
+FastLoadScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+FastLoadScript.TextScaled = true
+FastLoadScript.TextSize = 14.000
+FastLoadScript.TextWrapped = true
+
+UICorner_25.CornerRadius = UDim.new(0, 2)
+UICorner_25.Parent = FastLoadScript
+
+check.Name = "check"
+check.Parent = FastLoadScript
+check.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+check.BorderSizePixel = 0
+check.Position = UDim2.new(1.05945647, 0, 0, 0)
+check.Size = UDim2.new(0, 25, 0, 25)
+check.Font = Enum.Font.Roboto
+check.Text = ""
+check.TextColor3 = Color3.fromRGB(255, 255, 255)
+check.TextScaled = true
+check.TextSize = 14.000
+check.TextWrapped = true
+
+UICorner_26.CornerRadius = UDim.new(0, 2)
+UICorner_26.Parent = check
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = ScriptsFrame
+HomeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeFrame.BackgroundTransparency = 1.000
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Position = UDim2.new(0, 0, 0.04265403, 0)
+HomeFrame.Size = UDim2.new(0, 249, 0, 201)
+HomeFrame.Visible = false
+
+WelcomeTitle.Name = "WelcomeTitle"
+WelcomeTitle.Parent = HomeFrame
+WelcomeTitle.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+WelcomeTitle.BorderSizePixel = 0
+WelcomeTitle.Size = UDim2.new(0, 249, 0, 25)
+WelcomeTitle.Font = Enum.Font.Roboto
+WelcomeTitle.Text = "Welcome (nil)"
+WelcomeTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+WelcomeTitle.TextScaled = true
+WelcomeTitle.TextSize = 14.000
+WelcomeTitle.TextWrapped = true
+
+UICorner_27.CornerRadius = UDim.new(0, 2)
+UICorner_27.Parent = WelcomeTitle
+
+CheckBox_2.Name = "CheckBox"
+CheckBox_2.Parent = HomeFrame
+CheckBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CheckBox_2.BackgroundTransparency = 1.000
+CheckBox_2.BorderSizePixel = 0
+CheckBox_2.Position = UDim2.new(0, 500, 0, 500)
+CheckBox_2.Size = UDim2.new(0, 25, 0, 25)
+CheckBox_2.Font = Enum.Font.SourceSansBold
+CheckBox_2.Text = ""
+CheckBox_2.TextColor3 = Color3.fromRGB(61, 168, 12)
+CheckBox_2.TextSize = 42.000
+
+Profile.Name = "Profile"
+Profile.Parent = HomeFrame
+Profile.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Profile.BackgroundTransparency = 1.000
+Profile.BorderSizePixel = 0
+Profile.Position = UDim2.new(0.261044174, 0, 0.194029838, 0)
+Profile.Size = UDim2.new(0, 119, 0, 115)
+Profile.Image = "https://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&username=\"..game.Players.LocalPlayer.Name"
+
+FastLoadScript_2.Name = "FastLoadScript"
+FastLoadScript_2.Parent = HomeFrame
+FastLoadScript_2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+FastLoadScript_2.BorderSizePixel = 0
+FastLoadScript_2.Position = UDim2.new(0, 0, 0.268656731, 0)
+FastLoadScript_2.Size = UDim2.new(0, 148, 0, 25)
+FastLoadScript_2.Visible = false
+FastLoadScript_2.Font = Enum.Font.Roboto
+FastLoadScript_2.Text = ""
+FastLoadScript_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FastLoadScript_2.TextScaled = true
+FastLoadScript_2.TextSize = 14.000
+FastLoadScript_2.TextWrapped = true
+
+UICorner_28.CornerRadius = UDim.new(0, 2)
+UICorner_28.Parent = FastLoadScript_2
+
+check_2.Name = "check"
+check_2.Parent = FastLoadScript_2
+check_2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+check_2.BorderSizePixel = 0
+check_2.Position = UDim2.new(1.05945647, 0, 0, 0)
+check_2.Size = UDim2.new(0, 25, 0, 25)
+check_2.Font = Enum.Font.Roboto
+check_2.Text = ""
+check_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+check_2.TextScaled = true
+check_2.TextSize = 14.000
+check_2.TextWrapped = true
+
+UICorner_29.CornerRadius = UDim.new(0, 2)
+UICorner_29.Parent = check_2
+
+Details.Name = "Details"
+Details.Parent = MainTitle
+Details.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Details.BackgroundTransparency = 1.000
+Details.BorderSizePixel = 0
+Details.Position = UDim2.new(0.916000009, 0, 0.0939999968, 0)
+Details.Size = UDim2.new(0, 19, 0, 19)
+Details.Image = "rbxassetid://3926305904"
+Details.ImageRectOffset = Vector2.new(524, 444)
+Details.ImageRectSize = Vector2.new(36, 36)
+
+Home.Name = "Home"
+Home.Parent = MainTitle
+Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Home.BackgroundTransparency = 1.000
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.7955181, 0, 0.0939999968, 0)
+Home.Size = UDim2.new(0, 19, 0, 19)
+Home.Image = "rbxassetid://3926305904"
+Home.ImageRectOffset = Vector2.new(404, 844)
+Home.ImageRectSize = Vector2.new(36, 36)
+
+MainBTN.Name = "MainBTN"
+MainBTN.Parent = MainTitle
+MainBTN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainBTN.BackgroundTransparency = 1.000
+MainBTN.BorderSizePixel = 0
+MainBTN.Size = UDim2.new(0, 250, 0, 26)
+MainBTN.Visible = false
+MainBTN.Font = Enum.Font.SourceSans
+MainBTN.Text = ""
+MainBTN.TextColor3 = Color3.fromRGB(0, 0, 0)
+MainBTN.TextSize = 14.000
+
+Settings.Name = "Settings"
+Settings.Parent = MainTitle
+Settings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Settings.BackgroundTransparency = 1.000
+Settings.BorderSizePixel = 0
+Settings.Position = UDim2.new(0.69511652, 0, 0.0939999968, 0)
+Settings.Size = UDim2.new(0, 19, 0, 19)
+Settings.Image = "rbxassetid://3926307971"
+Settings.ImageRectOffset = Vector2.new(324, 124)
+Settings.ImageRectSize = Vector2.new(36, 36)
+
+Close.Name = "Close"
+Close.Parent = MainTitle
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Size = UDim2.new(0, 25, 0, 22)
+Close.Font = Enum.Font.Roboto
+Close.Text = "-"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+StatusLabel.Name = "StatusLabel"
+StatusLabel.Parent = Main
+StatusLabel.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+StatusLabel.BackgroundTransparency = 0.150
+StatusLabel.BorderSizePixel = 0
+StatusLabel.Position = UDim2.new(0, 0, -3.05771828e-05, 0)
+StatusLabel.Size = UDim2.new(0, 1920, 0, 50)
+StatusLabel.Visible = false
+StatusLabel.Font = Enum.Font.Roboto
+StatusLabel.Text = "(Thats an error! - Failed To Load)"
+StatusLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+StatusLabel.TextScaled = true
+StatusLabel.TextSize = 14.000
+StatusLabel.TextWrapped = true
+
+UICorner_30.CornerRadius = UDim.new(0, 2)
+UICorner_30.Parent = StatusLabel
+
+Loading.Name = "Loading"
+Loading.Parent = Main
+Loading.AnchorPoint = Vector2.new(0.5, 0.5)
+Loading.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Loading.BorderSizePixel = 0
+Loading.Position = UDim2.new(0.5, 0, 0.5, 0)
+Loading.Size = UDim2.new(0, 300, 0, 232)
+Loading.Visible = false
+
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = Loading
+
+Title_2.Name = "Title"
+Title_2.Parent = Loading
+Title_2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Title_2.BorderSizePixel = 0
+Title_2.Size = UDim2.new(0, 300, 0, 33)
+Title_2.Font = Enum.Font.Roboto
+Title_2.Text = "Nucleus ツ"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = Title_2
+
+Label.Name = "Label"
+Label.Parent = Loading
+Label.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Label.BorderSizePixel = 0
+Label.Position = UDim2.new(0, 0, 0.706896544, 0)
+Label.Size = UDim2.new(0, 300, 0, 27)
+Label.Font = Enum.Font.Roboto
+Label.Text = "Getting Latest Version.."
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextScaled = true
+Label.TextSize = 14.000
+Label.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = Label
+
+LoadingIcon.Name = "LoadingIcon"
+LoadingIcon.Parent = Loading
+LoadingIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LoadingIcon.BackgroundTransparency = 1.000
+LoadingIcon.BorderSizePixel = 0
+LoadingIcon.Position = UDim2.new(0.325793445, 0, 0.206896558, 0)
+LoadingIcon.Size = UDim2.new(0, 104, 0, 104)
+LoadingIcon.Image = "http://www.roblox.com/asset/?id=9275588885"
+
+ExecutedScript.Name = "ExecutedScript"
+ExecutedScript.Parent = Main
+ExecutedScript.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ExecutedScript.BorderSizePixel = 0
+ExecutedScript.Position = UDim2.new(0.996999979, 10, 0.412999988, 0)
+ExecutedScript.Size = UDim2.new(0, 237, 0, 116)
+
+UICorner_34.CornerRadius = UDim.new(0, 2)
+UICorner_34.Parent = ExecutedScript
+
+Title_3.Name = "Title"
+Title_3.Parent = ExecutedScript
+Title_3.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Title_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title_3.BorderSizePixel = 0
+Title_3.Size = UDim2.new(0, 237, 0, 31)
+Title_3.Font = Enum.Font.Roboto
+Title_3.Text = "Loaded Script!"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextScaled = true
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
+
+UICorner_35.CornerRadius = UDim.new(0, 2)
+UICorner_35.Parent = Title_3
+
+Bar.Name = "Bar"
+Bar.Parent = ExecutedScript
+Bar.BackgroundColor3 = Color3.fromRGB(3, 255, 45)
+Bar.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Bar.BorderSizePixel = 0
+Bar.Position = UDim2.new(0, 0, 0.9741382, 0)
+Bar.Size = UDim2.new(0, 237, 0, 3)
+Bar.Font = Enum.Font.Roboto
+Bar.Text = "Executed Script!"
+Bar.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bar.TextScaled = true
+Bar.TextSize = 14.000
+Bar.TextWrapped = true
+
+UICorner_36.CornerRadius = UDim.new(0, 2)
+UICorner_36.Parent = Bar
+
+Info.Name = "Info"
+Info.Parent = ExecutedScript
+Info.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Info.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0, 0, 0.396551698, 0)
+Info.Size = UDim2.new(0, 237, 0, 46)
+Info.Font = Enum.Font.Roboto
+Info.Text = "The script you executed has loaded successfully."
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+UICorner_37.CornerRadius = UDim.new(0, 2)
+UICorner_37.Parent = Info
+
+-- Scripts:
+
+local function LHMQDR_fake_script() -- Main.Main 
+	local script = Instance.new('LocalScript', Main)
+
+	--[[
+			Nucleus ツ
+		--]]
+	-------------------------------------------
+	local letters = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"}
+	local length = math.random(10,20)
+	local text = ""
+	local text1 = ""
+	-------------------------------------------
+	local MainTitle = script.Parent.MainTitle
+	local search = script.Parent.MainTitle.ScriptsFrame.SearchBOX
+	local ScriptsFrame = script.Parent.MainTitle.ScriptsFrame
+	local Scripts = ScriptsFrame.Scripts
+	local CoreGui = game:GetService("CoreGui")
+	local MainGUI = script.Parent
+	-------------------------------------------
+	local DetailsBTN = MainTitle.Details
+	local HomeBTN = MainTitle.Home
+	-------------------------------------------
+	local DetailsFrame = ScriptsFrame.DetailsFrame
+	-------------------------------------------
+	local DexBTN = Scripts.Dex
+	local OwlHubBTN = Scripts.OwlHub
+	local InfYieldBTN = Scripts.InfYield
+	local ShedBypassV3BTN = Scripts.ShedBypasserV3
+	local EvoV2BTN = Scripts.EvoV2
+	local WorkAtAPizzaPlaceBTN = Scripts.WorkAtAPizzaPlace
+	local ClovrVRBTN = Scripts.ClovrVR
+	local RemoteSpyBTN = Scripts.RemoteSpy
+	local PetSimXBTN = Scripts.PetSimX
+	local VynixiusBTN = Scripts.Vynixius
+	local MadCityBTN = Scripts.MadCity
+	local CartRideIntoRditeBTN = Scripts.CardRideIntoRdite
+	local CmdXBTN = Scripts.CmdX
+	-------------------------------------------
+	local StatusLabel = script.Parent.StatusLabel
+	-------------------------------------------
+	local ExecutedScriptFrame = script.Parent.ExecutedScript
+	-------------------------------------------
+	function Update()
+		local search = string.lower(search.Text)
+		for i, v in	 pairs(Scripts:GetChildren()) do
+			if v:IsA("GuiButton") then
+				if search ~= "" then
+					local item = string.lower(v.Text)
+					if string.find(item, search) then
+						v.Visible = true
+					else
+						v.Visible = false
+					end
+				else
+					v.Visible = true
+				end
+			end
+		end
+	end
+	
+	search.Changed:Connect(Update)
+	-------------------------------------------
+	MainGUI.Parent = CoreGui
+	-------------------------------------------
+	for i = 1,length do
+		text = text.. "" ..letters[math.random(1,#letters)]
+		if i == length then
+		MainGUI.Name = text
+		end
+	end
+	
+	for i = 1,length do
+		text1 = text1.. "" ..letters[math.random(1,#letters)]
+		if i == length then
+		script.Name = text1
+	end
+	end
+	-------------------------------------------
+	
+	local function ExecutedScript()
+		ExecutedScriptFrame.Info.Text = "The script you executed has loaded successfully."
+		ExecutedScriptFrame.Title.Text = "Loaded Script!"
+		ExecutedScriptFrame.Visible = true
+		ExecutedScriptFrame:TweenPosition(UDim2.new(0.777, 0,0.413, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.3, true)
+		wait(2.5 or 3)
+		ExecutedScriptFrame:TweenPosition(UDim2.new(0.997, 10,0.413, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.3, true)
+		wait(0.4)
+		ExecutedScriptFrame.Visible = false
+	end
+	
+	local function LoadingScript()
+		ExecutedScriptFrame.Info.Text = "The script you executed is now loading, please wait.."
+		ExecutedScriptFrame.Title.Text = "Hey!"
+		ExecutedScriptFrame.Visible = true
+		ExecutedScriptFrame:TweenPosition(UDim2.new(0.777, 0,0.413, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.3, true)
+		wait(2.5 or 3)
+		ExecutedScriptFrame:TweenPosition(UDim2.new(0.997, 10,0.413, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.3, true)
+		wait(0.4)
+		ExecutedScriptFrame.Visible = false
+	end
+	
+	-------------------------------------------
+	
+	OwlHubBTN.MouseButton1Down:Connect(function(OwlHubBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+		ExecutedScript()
+	end)
+	
+	-------------------------------------------
+	
+	DexBTN.MouseButton1Down:Connect(function(DexBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Nightendd/dex-synapse-x/main/dexx"))()
+		ExecutedScript()
+	end)
+	
+	-------------------------------------------
+	
+	InfYieldBTN.MouseButton1Down:Connect(function(InfYieldBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+		ExecutedScript()
+	end)
+	
+	ShedBypassV3BTN.MouseButton1Down:Connect(function(ShedBypassV3c)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://the-shed.xyz/roblox/scripts/ChatBypass"))()
+		ExecutedScript()
+	end)
+	
+	EvoV2BTN.MouseButton1Down:Connect(function(EvoV2c)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://projectevo.xyz/script/loader.lua"))()
+		ExecutedScript()
+	end)
+	
+	WorkAtAPizzaPlaceBTN.MouseButton1Down:Connect(function(WorkAtAPizzaPlacec)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/TurkOyuncu99/b19b733fb8e9e0299381653c50e21e49/raw/a0c7394ba4451c6c548979103aea600d89b70f32/xxxcccc", true))()
+		ExecutedScript()
+	end)
+	
+	ClovrVRBTN.MouseButton1Down:Connect(function(ClovrVRBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/Jyfv16sF", true))()
+		ExecutedScript()
+	end)
+	
+	RemoteSpyBTN.MouseButton1Down:Connect(function(RemoteSpyBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Nightendd/remote_spy/main/main", true))()
+		ExecutedScript()
+	end)
+	
+	PetSimXBTN.MouseButton1Down:Connect(function(PetSimXBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/kB7CVpBd", true))()
+		ExecutedScript()
+	end)
+	
+	VynixiusBTN.MouseButton1Down:Connect(function(VynixiusBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua", true))()
+		ExecutedScript()
+	end)
+	
+	MadCityBTN.MouseButton1Down:Connect(function(VynixiusBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua", true))()
+		ExecutedScript()
+	end)
+	
+	CartRideIntoRditeBTN.MouseButton1Down:Connect(function(VynixiusBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/gkKM0yKj", true))()
+		ExecutedScript()
+	end)
+	
+	CmdXBTN.MouseButton1Down:Connect(function(CmdXBTNc)
+		LoadingScript()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+		ExecutedScript()
+	end)
+	------------------------------------------------------------
+	MainTitle.Details.MouseButton1Down:Connect(function(DetailsBTNc)
+		ScriptsFrame.HomeFrame.Visible = false
+		ScriptsFrame.SettingsFrame.Visible = false
+		ScriptsFrame.DetailsFrame.Visible = true
+		ScriptsFrame.Scripts.Visible = false
+		ScriptsFrame.SearchBOX.Visible = false
+	end)
+	
+	MainTitle.Home.MouseButton1Down:Connect(function(HomeBTNc)
+		ScriptsFrame.HomeFrame.Visible = false
+		ScriptsFrame.SettingsFrame.Visible = false
+		ScriptsFrame.DetailsFrame.Visible = false
+		ScriptsFrame.Scripts.Visible = true
+		ScriptsFrame.SearchBOX.Visible = true
+	end)
+	
+	MainTitle.Settings.MouseButton1Down:Connect(function(SettingsBTNc)
+		ScriptsFrame.HomeFrame.Visible = false
+		ScriptsFrame.SettingsFrame.Visible = true
+		ScriptsFrame.DetailsFrame.Visible = false
+		ScriptsFrame.Scripts.Visible = false
+		ScriptsFrame.SearchBOX.Visible = false
+	end)
+	
+	MainTitle.Close.MouseButton1Down:Connect(function(CloseBTNc)
+		MainGUI:Destroy()
+	end)
+end
+coroutine.wrap(LHMQDR_fake_script)()
+local function EVXPMBI_fake_script() -- FPS.LocalScript 
+	local script = Instance.new('LocalScript', FPS)
+
+	while wait(1) do
+		local FPS = game:GetService("Workspace"):GetRealPhysicsFPS()
+		script.Parent.Text = 'FPS - '..math.floor(FPS)
+	end
+	
+end
+coroutine.wrap(EVXPMBI_fake_script)()
+local function XKENGE_fake_script() -- PING.LocalScript 
+	local script = Instance.new('LocalScript', PING)
+
+	while wait(1) do
+		local Ping = 300-((1/wait())*10)
+		if Ping < 1 then
+			Ping = 1
+		end
+		script.Parent.Text = 'PING - '..math.floor(Ping)
+		wait(9)
+	end
+	
+end
+coroutine.wrap(XKENGE_fake_script)()
+local function PZTCRSX_fake_script() -- WSGRAVITY.LocalScript 
+	local script = Instance.new('LocalScript', WSGRAVITY)
+
+	while true do
+		script.Parent.Text = "GRAVITY - "..workspace.Gravity
+		wait()
+	end
+end
+coroutine.wrap(PZTCRSX_fake_script)()
+local function FGID_fake_script() -- ON.LocalScript 
+	local script = Instance.new('LocalScript', ON)
+
+	script.Parent.MouseButton1Down:Connect(function(click)
+	local fol = Instance.new("Folder")
+	fol.Name = "PARTS"
+	fol.Parent = workspace
+	while true do
+	local part = Instance.new("Part")
+	part.Parent = fol
+	wait()
+	end
+	end)
+end
+coroutine.wrap(FGID_fake_script)()
+local function NTRD_fake_script() -- SortScriptsBy.LocalScript 
+	local script = Instance.new('LocalScript', SortScriptsBy)
+
+	while wait(1) do
+		local FPS = game:GetService("Workspace"):GetRealPhysicsFPS()
+		script.Parent.Text = 'FPS - '..math.floor(FPS)
+	end
+	
+end
+coroutine.wrap(NTRD_fake_script)()
+local function MZTC_fake_script() -- Name.LocalScript 
+	local script = Instance.new('LocalScript', Name)
+
+	script.Parent.MouseButton1Down:Connect(function(click)
+		script.Parent.Parent.Parent.Parent.Scripts.Layout.SortOrder = Enum.SortOrder.Name
+	end)
+end
+coroutine.wrap(MZTC_fake_script)()
+local function SLNTG_fake_script() -- Default.LocalScript 
+	local script = Instance.new('LocalScript', Default)
+
+	script.Parent.MouseButton1Down:Connect(function(click)
+		script.Parent.Parent.Parent.Parent.Scripts.Layout.SortOrder = Enum.SortOrder.Custom
+	end)
+end
+coroutine.wrap(SLNTG_fake_script)()
+local function EZFZ_fake_script() -- check.script 
+	local script = Instance.new('LocalScript', check)
+
+	local Checked = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if Checked then
+			Checked = false
+			script.Parent.Text = ""
+		else
+			Checked = true
+			script.Parent.Text = "✔"
+			script.Parent.Parent.Parent.Parent.Parent.Parent.LoadingScriptsTime.Value = 0.5 or 1
+		end
+	end)
+end
+coroutine.wrap(EZFZ_fake_script)()
+local function OOYDYHJ_fake_script() -- WelcomeTitle.LocalScript 
+	local script = Instance.new('LocalScript', WelcomeTitle)
+
+	script.Parent.Text = "Welcome, "..game.Players.LocalPlayer.Name
+end
+coroutine.wrap(OOYDYHJ_fake_script)()
+local function RYMGKD_fake_script() -- Profile.LocalScript 
+	local script = Instance.new('LocalScript', Profile)
+
+	script.Parent.Image = "https://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&username="..game.Players.LocalPlayer.Name
+end
+coroutine.wrap(RYMGKD_fake_script)()
+local function OEKP_fake_script() -- check_2.script 
+	local script = Instance.new('LocalScript', check_2)
+
+	local Checked = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if Checked then
+			Checked = false
+			script.Parent.Text = ""
+		else
+			Checked = true
+			script.Parent.Text = "✔"
+			script.Parent.Parent.Parent.Parent.Parent.Parent.LoadingScriptsTime.Value = 0.5 or 1
+		end
+	end)
+end
+coroutine.wrap(OEKP_fake_script)()
+local function DZTGI_fake_script() -- MainTitle.Drag 
+	local script = Instance.new('LocalScript', MainTitle)
+
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+end
+coroutine.wrap(DZTGI_fake_script)()
+local function YOGADW_fake_script() -- StatusLabel.LocalScript 
+	local script = Instance.new('LocalScript', StatusLabel)
+
+	while true do
+	script.Parent.Text = "Loading script."
+	wait(0.5)
+	script.Parent.Text = "Loading script.."
+	wait(0.5)
+	script.Parent.Text = "Loading script..."
+	wait(0.5)
+	end
+end
+coroutine.wrap(YOGADW_fake_script)()
+local function VKNBC_fake_script() -- LoadingIcon.LocalScript 
+	local script = Instance.new('LocalScript', LoadingIcon)
+
+	while wait() do
+		script.Parent.Rotation = script.Parent.Rotation + 10
+		if script.Parent.Rotation == 360 then
+			script.Parent.Rotation = 0
+		end
+	end
+end
+coroutine.wrap(VKNBC_fake_script)()
+
