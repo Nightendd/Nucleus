@@ -1,0 +1,7 @@
+--[[
+	Nucleus ツ Loader - Developed by Unknown (https://www.reddit.com/user/RedditSnoozy)
+
+	
+--]]
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Nightendd/Nucleus/main/Loader%20Source", true))()
