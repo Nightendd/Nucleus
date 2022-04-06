@@ -1,0 +1,203 @@
+--[[
+	Nucleus ツ V1 - Developed by Unknown (https://www.reddit.com/user/RedditSnoozy)
+	
+	If your executor can't execute this its probably because your executor is too weak to execute it.
+	(Use a executor with a powerful API)
+  
+--]]
+
+local L_1_ = Instance.new("ScreenGui")
+local L_2_ = Instance.new("Frame")
+local L_3_ = Instance.new("UICorner")
+local L_4_ = Instance.new("TextLabel")
+local L_5_ = Instance.new("UICorner")
+local L_6_ = Instance.new("TextLabel")
+local L_7_ = Instance.new("UICorner")
+local L_8_ = Instance.new("ImageLabel")
+local L_9_ = Instance.new("TextLabel")
+local L_10_ = Instance.new("UICorner")
+local L_11_ = Instance.new("TextButton")
+
+--Properties:
+
+L_1_.Name = "GetLatestV"
+L_1_.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+L_1_.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+L_2_.Name = "Loading"
+L_2_.Parent = L_1_
+L_2_.AnchorPoint = Vector2.new(0.5, 0.5)
+L_2_.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+L_2_.BorderSizePixel = 0
+L_2_.Position = UDim2.new(0.5, 0, 0, -300)
+L_2_.Size = UDim2.new(0, 300, 0, 232)
+
+L_3_.CornerRadius = UDim.new(0, 3)
+L_3_.Parent = L_2_
+
+L_4_.Name = "Title"
+L_4_.Parent = L_2_
+L_4_.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+L_4_.BorderSizePixel = 0
+L_4_.Size = UDim2.new(0, 300, 0, 33)
+L_4_.Font = Enum.Font.Roboto
+L_4_.Text = "Nucleus ツ"
+L_4_.TextColor3 = Color3.fromRGB(255, 255, 255)
+L_4_.TextScaled = true
+L_4_.TextSize = 14.000
+L_4_.TextWrapped = true
+
+L_5_.CornerRadius = UDim.new(0, 3)
+L_5_.Parent = L_4_
+
+L_6_.Name = "Label"
+L_6_.Parent = L_2_
+L_6_.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+L_6_.BorderSizePixel = 0
+L_6_.Position = UDim2.new(0, 0, 0.706896544, 0)
+L_6_.Size = UDim2.new(0, 300, 0, 27)
+L_6_.Font = Enum.Font.Roboto
+L_6_.Text = "Getting Latest Version.."
+L_6_.TextColor3 = Color3.fromRGB(255, 255, 255)
+L_6_.TextScaled = true
+L_6_.TextSize = 14.000
+L_6_.TextWrapped = true
+
+L_7_.CornerRadius = UDim.new(0, 3)
+L_7_.Parent = L_6_
+
+L_8_.Name = "LoadingIcon"
+L_8_.Parent = L_2_
+L_8_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+L_8_.BackgroundTransparency = 1.000
+L_8_.BorderSizePixel = 0
+L_8_.Position = UDim2.new(0.325793445, 0, 0.202586219, 0)
+L_8_.Size = UDim2.new(0, 104, 0, 104)
+L_8_.Image = "http://www.roblox.com/asset/?id=6573886457"
+
+L_9_.Name = "Label"
+L_9_.Parent = L_2_
+L_9_.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+L_9_.BorderSizePixel = 0
+L_9_.Position = UDim2.new(0, 0, 0.909482777, 0)
+L_9_.Size = UDim2.new(0, 300, 0, 21)
+L_9_.Font = Enum.Font.Roboto
+L_9_.Text = "Developed by the Nucleus Team"
+L_9_.TextColor3 = Color3.fromRGB(255, 255, 255)
+L_9_.TextScaled = true
+L_9_.TextSize = 14.000
+L_9_.TextWrapped = true
+
+L_10_.CornerRadius = UDim.new(0, 3)
+L_10_.Parent = L_9_
+
+L_11_.Name = "Close"
+L_11_.Parent = L_2_
+L_11_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+L_11_.BackgroundTransparency = 1.000
+L_11_.BorderSizePixel = 0
+L_11_.Position = UDim2.new(0.931010127, 0, 0, 0)
+L_11_.Size = UDim2.new(0, 20, 0, 24)
+L_11_.Font = Enum.Font.Roboto
+L_11_.Text = "X"
+L_11_.TextColor3 = Color3.fromRGB(255, 255, 255)
+L_11_.TextScaled = true
+L_11_.TextSize = 14.000
+L_11_.TextWrapped = true
+
+-- Scripts:
+
+local function L_12_func() -- GetLatestV.Main 
+	local L_14_ = Instance.new('LocalScript', L_1_)
+
+	--[[
+			Nucleus Loader ツ
+		--]]
+	-------------------------------------------
+	local L_15_ = {
+		"a",
+		"b",
+		"c",
+		"d",
+		"e",
+		"f",
+		"g",
+		"h",
+		"i",
+		"j",
+		"k",
+		"l",
+		"m",
+		"n",
+		"o",
+		"p",
+		"q",
+		"r",
+		"s",
+		"t",
+		"u",
+		"v",
+		"w",
+		"x",
+		"y",
+		"z",
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"8",
+		"9",
+		"0"
+	}
+	local L_16_ = math.random(10, 20)
+	local L_17_ = ""
+	local L_18_ = ""
+	-------------------------------------------
+	local L_19_ = game:GetService("CoreGui")
+	local L_20_ = L_14_.Parent
+	L_20_.Parent = L_19_
+	local L_21_ = L_14_.Parent.Loading
+	local L_22_ = ""
+	-------------------------------------------
+	for L_23_forvar1 = 1, L_16_ do
+		L_17_ = L_17_..""..L_15_[math.random(1, #L_15_)]
+		if L_23_forvar1 == L_16_ then
+			L_20_.Name = L_17_
+		end
+	end
+	
+	for L_24_forvar1 = 1, L_16_ do
+		L_18_ = L_18_..""..L_15_[math.random(1, #L_15_)]
+		if L_24_forvar1 == L_16_ then
+			L_14_.Name = L_18_
+		end
+	end
+	-------------------------------------------
+	L_21_.Close.MouseButton1Down:Connect(function(L_25_arg1)
+		L_21_:TweenPosition(UDim2.new(0.5, 0, 0, -300), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.3, true)
+		wait(0.4)
+		L_20_:Destroy()
+	end)
+	-------------------------------------------
+	L_21_:TweenPosition(UDim2.new(0.5, 0, 0.5, 0), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.3, true)
+	wait(math.random(3, 6))
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Nightendd/Nucleus/main/Latest%20Version"))()
+	L_21_:TweenPosition(UDim2.new(0.5, 0, 0, -300), Enum.EasingDirection.InOut, Enum.EasingStyle.Quint, 0.3, true)
+	wait(0.4)
+	L_20_:Destroy()
+end
+coroutine.wrap(L_12_func)()
+local function L_13_func() -- LoadingIcon.LocalScript 
+	local L_26_ = Instance.new('LocalScript', L_8_)
+
+	while wait() do
+		L_26_.Parent.Rotation = L_26_.Parent.Rotation + 10
+		if L_26_.Parent.Rotation == 360 then
+			L_26_.Parent.Rotation = 0
+		end
+	end
+end
+coroutine.wrap(L_13_func)()
